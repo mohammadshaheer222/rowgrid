@@ -50,7 +50,7 @@ const Home = () => {
               alt=""
             />
           </div>
-          {/* <Brand /> */}
+          <Brand />
         </div>
       </div>
     </>
