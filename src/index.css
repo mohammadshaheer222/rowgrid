@@ -1,3 +1,4 @@
-@tailwind base;
+@import url('https://fonts.cdnfonts.com/css/signate-grotesk');
+@tailwind89 base;
 @tailwind components;
 @tailwind utilities;

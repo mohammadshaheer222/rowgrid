@@ -4,6 +4,16 @@ export default {
   theme: {
     extend: {
     },
+    fontFamily:{
+      signate: ["Signate Grotesk","sans-serif"],
+    },
+    backgroundColor: {
+      primary: "#00040F"
+    },
+    colors: {
+      text: "#B4B4B4"
+    }
+
   },
   plugins: [],
 };
