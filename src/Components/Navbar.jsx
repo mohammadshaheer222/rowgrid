@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
+import logo from "/src/assets/images/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
             <div className="flex items-center gap-2 ">
               <img
                 className="w-10 h-10"
-                src="/src/assets/images/black rowgrid.png"
+                src="/src/assets/images/logo.png"
                 alt=""
               />
               <h1>Rowgrid</h1>
