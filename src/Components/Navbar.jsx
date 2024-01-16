@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="flex items-center gap-2 ">
               <img
                 className="w-10 h-10"
-                src="/src/assets/images/logo.png"
+                src={logo}
                 alt=""
               />
               <h1>Rowgrid</h1>
