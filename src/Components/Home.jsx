@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import Brand from "./Brand";
-import "/src/App.css";
+import rowgridImage from '/src/assets/images/rowgrid.png';
+import web1Image from '/src/assets/images/web1.jpg';
+import web4Image from '/src/assets/images/web4.png';
 const Home = () => {
   return (
     <>
@@ -9,7 +11,7 @@ const Home = () => {
           <div className="flex items-center justify-center">
             <img
               className="w-screen"
-              src="./assets/images/rowgrid.png"
+              src={rowgridImage}
               alt=""
             />
           </div>
@@ -22,7 +24,7 @@ const Home = () => {
                 duration: 1.5,
               }}
               className="absolute w-52 h-36 top-[10%] left-[0%] sm:top-[15%] md:left-[40%] md:top-[15%] md:w-80 md:h-44 lg:top-[30%] "
-              src="./assets/images/web1.jpg"
+              src={web1Image}
               alt=""
             />
             <motion.img
@@ -33,7 +35,7 @@ const Home = () => {
                 duration: 1.5,
               }}
               className="hidden md:block md:absolute w-[50%] h-60 right-[90%] top-40 md:top-60"
-              src="./assets/images/web1.jpg"
+              src={web1Image}
               alt=""
             />
             <motion.img
@@ -44,7 +46,7 @@ const Home = () => {
                 duration: 1.5,
               }}
               className="absolute w-60 h-36 right-[0%] top-72 "
-              src="/src/assets/images/web4.png"
+              src={web4Image}
               alt=""
             />
           </div>
