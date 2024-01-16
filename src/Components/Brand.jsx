@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 const Brand = () => {
   const iconFotos = [
-    "/src/assets/images/brand1.png",
-    "/src/assets/images/brand2.png",
-    "/src/assets/images/brand3.png",
-    "/src/assets/images/brand4.png",
-    "/src/assets/images/brand5.png",
+    "./assets/images/brand1.png",
+    "./assets/images/brand2.png",
+    "./assets/images/brand3.png",
+    "./assets/images/brand4.png",
+    "./assets/images/brand5.png",
   ];
   const iconVariant = {
     hidden: {
@@ -21,7 +21,7 @@ const Brand = () => {
       },
     },
   };
-  
+
   return (
     <>
       <div>

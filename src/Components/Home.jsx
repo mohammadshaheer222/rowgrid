@@ -9,7 +9,7 @@ const Home = () => {
           <div className="flex items-center justify-center">
             <img
               className="w-screen"
-              src="/src/assets/images/rowgrid.png"
+              src="./assets/images/rowgrid.png"
               alt=""
             />
           </div>
@@ -22,7 +22,7 @@ const Home = () => {
                 duration: 1.5,
               }}
               className="absolute w-52 h-36 top-[10%] left-[0%] sm:top-[15%] md:left-[40%] md:top-[15%] md:w-80 md:h-44 lg:top-[30%] "
-              src="/src/assets/images/web1.jpg"
+              src="./assets/images/web1.jpg"
               alt=""
             />
             <motion.img
@@ -33,7 +33,7 @@ const Home = () => {
                 duration: 1.5,
               }}
               className="hidden md:block md:absolute w-[50%] h-60 right-[90%] top-40 md:top-60"
-              src="/src/assets/images/web1.jpg"
+              src="./assets/images/web1.jpg"
               alt=""
             />
             <motion.img
