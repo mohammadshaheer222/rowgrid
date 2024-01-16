@@ -50,7 +50,6 @@ const Home = () => {
           </div>
           <Brand />
         </div>
-        <h1 className="row text-9xl font-medium">ROWGRID</h1>
       </div>
     </>
   );
